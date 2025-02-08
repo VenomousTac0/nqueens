@@ -18,7 +18,7 @@ bool solve_nqueens_util(int board[], int col, int n) {
     }
     return false; // No solution
 }
-
+//New addition ahhhhhhhhh
 // Wrapper function to solve N-Queens
 void solve_nqueens(int n) {
     int *board = (int *)malloc(n * sizeof(int));
